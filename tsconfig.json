@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist/",
+      "allowSyntheticDefaultImports": true,
+      "noImplicitAny": true,
+      "module": "ES6",
+      "target": "es6",
+      "jsx": "preserve",
+      "allowJs": true,
+      "moduleResolution": "node",
+      "sourceMap": true,
+    },
+    "lit-html.tags": [
+      "html",
+      "template"
+  ],
+  "include": ["src/**/*"],
+  "exclude": ["**/*.svelte"]
+  }
